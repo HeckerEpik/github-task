@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Github CSS.css">
+</head>
+<body>
+  <div class="container">
+    <form id="form" class="form">
+      <h2>Register With Us</h2>
+
+ 
+
+      <!--First DIV Username-->
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter Username">
+        <small>Error Message</small>
+      </div>
+      
+       <!--Second DIV E-mail-->
+      <div class="form-control">
+        <label for="E-mail">E-mail</label>
+        <input type="text" id="E-mail" placeholder="Enter Email">
+        <small>Error Message</small>
+      </div>
+      
+       <!--Third DIV Password-->
+      <div class="form-control">
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="Enter Password">
+        <small>Error Message</small>
+      </div>
+      
+       <!--Fourth DIV Confirm Password-->
+      <div class="form-control">
+        <label for="Password2">Confirm Password</label>
+        <input type="Password" id="Password2" placeholder="Enter Password Again">
+        <small>Error Message</small>
+      </div>
+      <button type="submit">Submit</button>
+     </form>
+  </div>
+</body>
+</html>
